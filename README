@@ -1,0 +1,10 @@
+Das Python Skript "edf2wfdb.py" realisiert die Wandlung von dem Datei Format EDF zu dem Datei Format WFDB.
+Um die Skripts aus führen zukönnen brauchen sie die API's : pyEdflib und die Python Version der WFDB Lib
+
+Links:
+https://pyedflib.readthedocs.io/en/latest/
+https://wfdb.readthedocs.io/en/latest/installation.html
+
+Zur Erklärung:
+Die Idee ist mittels der WFDB Lib die Funktion edf2mit zu verwenden und die restlichen / fehlende Infos über pyEdflib in das erzeugte Record Obj einzufügen
+Jedoch wird mir bei jeder EDF datei, bis auf 109.edf, gesagt das der Resultierende NP.Array nicht rehapeable ist. (WT F)
